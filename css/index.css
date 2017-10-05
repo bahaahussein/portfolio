@@ -1,0 +1,68 @@
+body {
+  font-family: "sans-serif";
+  max-width: 90%;
+  box-sizing: border-box;
+}
+#logo {
+	float: left;
+	max-width: 20%;
+}
+.upper {
+	text-transform: uppercase;
+}
+#info {
+	float: right;
+	direction: rtl;
+	max-width: 20%;
+}
+header {
+	box-sizing: border-box;
+	border-bottom: 5px solid #7d97ad;
+	margin: 5%;
+	width: 90%;
+}
+header:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+#name {
+	font-size: 2.5em;
+	margin-bottom: 0;
+}
+.bold {
+	font-weight: bold;
+}
+#description {
+	margin-top: 0;
+}
+#personal_photo {
+	width: 90%;
+	box-sizing: border-box;
+}
+#work_title {
+	text-transform: capitalize;
+	color: #7d97ad;
+}
+#work_list {
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	width: 90%;
+}
+.work_image {
+	box-sizing: border-box;
+	width: 100%;
+}
+.work_item {
+	box-sizing: border-box;
+	max-width: 100%;
+}
+.center {
+	padding-left: 5.5em;
+}
+.work_photo_container {
+	margin: 2%;
+	box-sizing: border-box;
+	flex-basis: 20%;
+}
